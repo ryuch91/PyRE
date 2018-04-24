@@ -201,8 +201,8 @@ class Token:
         """
         :type token: Token
         """
-        from rete.negative_node import NegativeNode
-        from rete.ncc_node import NccPartnerNode, NccNode
+        from reteUL.negative_node import NegativeNode
+        from reteUL.ncc_node import NccPartnerNode, NccNode
 
         for child in token.children:
             cls.delete_token_and_descendents(child)
