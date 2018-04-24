@@ -1,3 +1,4 @@
 pronto>=0.10.2
 pytest
 pytest-benchmark
+rdflib
